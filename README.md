@@ -39,9 +39,20 @@
 
 #### 训练
 
+训练单模态模型
+
 ```
 python img_train.py
 python text&tag_train.py
+```
+
+训练双模态模型
+
+```
+python concatfusion.py
+python gatedfusion.py
+python transformerfusion.py
+python coattentionfusion.py
 ```
 
 #### 消融实验
